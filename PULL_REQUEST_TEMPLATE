@@ -1,0 +1,28 @@
+### PR Creator:
+- Development JIRA Ticket: [JIRA_NUM](https://jira.nutanix.com/browse/JIRA_NUM)
+- Stage Deployment JIRA Ticket: [JIRA_NUM](https://jira.nutanix.com/browse/JIRA_NUM)
+- Prod Deployment JIRA Ticket: [JIRA_NUM](https://jira.nutanix.com/browse/JIRA_NUM)
+
+### PR Assignee:
+* [ ] Is Stage Deployment Complete?
+* [ ] Is Prod Deployment Complete?
+
+### Description of change:
+-
+
+### Steps to Test, Deploy and Rollback (If Applicable)
+```
+<TEST/DEPLOY COMMANDS HERE>
+
+<ROLLBACK COMMANDS HERE>
+
+```
+<------------------------READ BELOW------------------------>
+### PR Creator:
+* Code tested in Dev/Local or Sandbox Environment (Reviewer is not responsible for testing unless explicitly specified)
+
+### PR Reviewer:
+* Are there any obvious logic errors in the code?
+* Looking at the requirements, are all cases fully implemented?
+* Does the new code confirm to existing style guidelines?
+* If deployment is needed, are rollback instructions included?
